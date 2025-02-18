@@ -6,9 +6,10 @@ from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 from IPython.display import Markdown, display, update_display
 from openai import OpenAI 
-from Website import Website
+from WebScraper import Website
 import yaml
 import utils as util
+
 
 with open("config.yaml", "r") as file:
     config = yaml.safe_load(file)
