@@ -33,7 +33,7 @@ python autobrochure.py --company "HuggingFace" --website "https://huggingface.co
 🔹 **About**: Tesla is a global leader in electric vehicles and clean energy solutions, dedicated to accelerating the world’s transition to sustainable energy.  
 🔹 **Products & Services**: Electric Cars, Solar Energy, Energy Storage  
 
-_(Full brochure sample available in the repository.)_  
+_(Full brochure sample available in the Result_Sample.md file.)_  
 
 
 
