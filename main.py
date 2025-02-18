@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 from IPython.display import Markdown, display, update_display
 from openai import OpenAI 
-
+from scraper import Website
 
 
 load_dotenv(override=True)
