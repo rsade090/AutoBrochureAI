@@ -1,8 +1,8 @@
 # AutoBrochureAI   
 
-AutoBrochureAI is an **AI-powered solution** that automates company brochure generation by leveraging **Large Language Models (LLMs), Web Scraping, and NLP**. Using **OpenAI’s GPT API** and **LLaMA 3.2 for local execution**, it extracts, summarizes, and structures business information from websites into **professionally formatted brochures**.  
+AutoBrochureAI is an AI-powered solution that automates company brochure generation by leveraging Large Language Models (LLMs), Web Scraping, and NLP. Using **OpenAI’s GPT API** and **LLaMA 3.2** for local execution, it extracts, summarizes, and structures business information from websites into professionally formatted brochures.  
 
-Designed for **businesses, marketers, and startups**, this tool streamlines promotional content creation, eliminating the need for manual curation. **Multi-shot prompting** ensures refined, coherent, and structured outputs.  
+Designed for businesses, marketers, and startups, this tool streamlines promotional content creation, eliminating the need for manual curation. **Multi-shot prompting** ensures refined, coherent, and structured outputs.  
 
 ###  **Key Features & Implementation**  
 
@@ -35,7 +35,7 @@ For **LLaMA 3.2 local execution**, ensure the model is installed and properly co
 ```bash
 python autobrochure.py --company "Tesla" --website "https://www.tesla.com"
 ```
-This generates a structured brochure **ready for use**.  
+This generates a structured brochure ready for use.  
 
 ---
 
