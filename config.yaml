@@ -3,7 +3,7 @@ You should respond in JSON as in this example:
 {
     "links": [
         {"type": "about page", "url": "https://full.url/goes/here/about"},
-        {"type": "careers page": "url": "https://another.full.url/careers"}
+        {"type": "careers page", "url": "https://another.full.url/careers"}
     ]
 }"
 
