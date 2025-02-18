@@ -14,29 +14,16 @@ Designed for businesses, marketers, and startups, this tool streamlines promotio
 - **Scalable & Adaptable** – Suitable for multiple industries and business types.  
 
 ---
+## Installation & Usage  
 
-##  Installation & Usage  
+Install dependencies, set up API keys, and run the project:  
 
-### **1️⃣ Setup Environment**  
 ```bash
-git clone https://github.com/yourusername/AutoBrochureAI.git
-cd AutoBrochureAI
 pip install -r requirements.txt
+echo "OPENAI_API_KEY=your_api_key_here" > .env
+python autobrochure.py --company "HuggingFace" --website "https://huggingface.co"
+ 
 ```
-
-### **2️⃣ Configure API Keys**  
-Create a `.env` file for OpenAI API access:  
-```bash
-OPENAI_API_KEY=your_api_key_here
-```
-For **LLaMA 3.2 local execution**, ensure the model is installed and properly configured.  
-
-### **3️⃣ Run the Project**  
-```bash
-python autobrochure.py --company "Tesla" --website "https://www.tesla.com"
-```
-This generates a structured brochure ready for use.  
-
 ---
 
 ## Example Output  
